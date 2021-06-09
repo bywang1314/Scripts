@@ -1,6 +1,3 @@
-// ^https:\/\/api\.revenuecat\.com\/v\d\/subscribers\/\d+$ url script-response-body vsco.js
-// api.revenuecat.com
-
 let obj = JSON.parse($response.body)
 
 obj.subscriber.subscriptions = {
